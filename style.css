@@ -1,0 +1,69 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0f0f0f;
+}
+
+/* BUTTON */
+.btn{
+  padding: 18px 50px;   /* size increase */
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  border-radius: 12px;
+  background: #111;
+}
+
+/* GLOW BORDER */
+.btn::before{
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  background: linear-gradient(
+    45deg,
+    red, orange, yellow, lime,
+    cyan, blue, violet, red
+  );
+  background-size: 400%;
+  filter: blur(8px);
+  border-radius: 12px;
+  z-index: -1;
+  animation: glow 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* HOVER = ONLY GLOW (video jaisa) */
+.btn:hover::before{
+  opacity: 1;
+}
+
+/* 🔥 SIMPLE CLICK EFFECT (safe) */
+.btn:active{
+  transform: scale(0.96);
+}
+
+.btn{
+  color: white; /* default + hover */
+}
+
+/* click pe color change */
+.btn:active{
+  color: black;
+}
+
+/* ANIMATION */
+@keyframes glow{
+  0%{ background-position: 0 0; }
+  50%{ background-position: 400% 0; }
+  100%{ background-position: 0 0; }
+}
