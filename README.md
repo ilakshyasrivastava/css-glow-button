@@ -1,20 +1,47 @@
-# 🌟 CSS Glow Button
+# ✨ CSS Glow Button
 
-A stylish glowing button built using pure HTML & CSS with smooth hover and click effects.
-
----
-
-## 🚀 Features
-
-- 🔥 Glow effect using CSS
-- 🎨 Gradient border animation
-- 🖱️ Smooth hover zoom effect
-- ⚡ Click interaction (text color change)
-- 💎 Clean and modern UI
+A stylish and modern **glowing button** built using **HTML** and **CSS**, featuring smooth hover effects and eye-catching animations.
 
 ---
 
-## 📂 Project Structure
-css-glow-button/ 
-│── index.html 
-│── style.css
+## 🌐 Live Demo
+
+🔗 https://ilakshyasrivastava.github.io/css-glow-button/
+
+---
+
+## 📸 Preview
+
+![Glow Button Screenshot](./image-1785253664523.jpg)
+
+---
+
+## ⚙️ Tech Stack
+
+- HTML5  
+- CSS3  
+
+---
+
+## ✨ Features
+
+- 🌙 Dark theme design  
+- ✨ Glowing effect  
+- 🎯 Smooth hover animation  
+- 🖱️ Interactive button UI  
+- ⚡ Lightweight and fast
+
+---
+
+👨‍💻 Author
+Lakshya Pratap Srivastava
+🔗 https://github.com/ilakshyasrivastava⁠�
+
+---
+
+⭐ Show your support
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+## 📁 Project Structure
