@@ -12,7 +12,7 @@ A stylish and modern **glowing button** built using **HTML** and **CSS**, featur
 
 ## 📸 Preview
 
-![Glow Button Screenshot](./image-1785253664523.jpg)
+![Glow Button Screenshot](assets/button.png)
 
 ---
 
